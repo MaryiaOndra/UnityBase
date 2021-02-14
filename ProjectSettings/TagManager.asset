@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Poison
+  - Scientific
+  - Standart
+  - Tube
+  - HappyEnd
   layers:
   - Default
   - TransparentFX
@@ -40,4 +46,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2946316175
+    locked: 0
+  - name: BackObjects
+    uniqueID: 2198720807
+    locked: 0
+  - name: Platforms
+    uniqueID: 2573403081
+    locked: 0
+  - name: Enemies
+    uniqueID: 2407907117
+    locked: 0
+  - name: Player
+    uniqueID: 3624444663
+    locked: 0
+  - name: FrontObjects
+    uniqueID: 3657282099
     locked: 0
