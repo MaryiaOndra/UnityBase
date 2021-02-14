@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: a9c136f9dcfd3954fa0f3fab6260607f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8051579698515443948
+    second: BirdHero_0
+  - first:
+      213: 5775143000185782248
+    second: BirdHero_1
+  - first:
+      213: -2643538357942516794
+    second: BirdHero_2
+  - first:
+      213: -5325025073722751191
+    second: BirdHeroSprite_0
+  - first:
+      213: 721988802767767359
+    second: BirdHeroSprite_1
+  - first:
+      213: 6732795342945509803
+    second: BirdHeroSprite_2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BirdHeroSprite_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 30
+        width: 113
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92705bc98e5b916b0800000000000000
+      internalID: -5325025073722751191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroSprite_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 30
+        width: 118
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -18.5}
+        - {x: 50, y: -13.5}
+        - {x: 54, y: -13.5}
+        - {x: 59, y: -10.5}
+        - {x: 59, y: 1.5}
+        - {x: 55, y: 6.5}
+        - {x: 52, y: 7.5}
+        - {x: 41, y: 10.5}
+        - {x: 37, y: 19.5}
+        - {x: 27, y: 27.5}
+        - {x: 18, y: 29.5}
+        - {x: 10, y: 32.5}
+        - {x: 5, y: 33.5}
+        - {x: -31, y: 33.5}
+        - {x: -36, y: 31.5}
+        - {x: -42, y: 27.5}
+        - {x: -47, y: 25.5}
+        - {x: -55, y: 25.5}
+        - {x: -59, y: 24.5}
+        - {x: -59, y: 12.5}
+        - {x: -58, y: 8.5}
+        - {x: -58, y: 5.5}
+        - {x: -56, y: 3.5}
+        - {x: -56, y: -11.5}
+        - {x: -54, y: -17.5}
+        - {x: -51, y: -22.5}
+        - {x: -42, y: -32.5}
+        - {x: -39, y: -33.5}
+        - {x: 27, y: -33.5}
+        - {x: 29, y: -32.5}
+        - {x: 37, y: -23.5}
+        - {x: 44, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0.69
+      bones: []
+      spriteID: f3748c8adf4050a00800000000000000
+      internalID: 721988802767767359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroSprite_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 30
+        width: 113
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: -14.5}
+        - {x: 56.5, y: -9.5}
+        - {x: 56.5, y: 2.5}
+        - {x: 48.5, y: 5.5}
+        - {x: 39.5, y: 5.5}
+        - {x: 38.5, y: 17.5}
+        - {x: 28.5, y: 28.5}
+        - {x: 19.5, y: 31.5}
+        - {x: 6.5, y: 33.5}
+        - {x: -34.5, y: 33.5}
+        - {x: -41.5, y: 29.5}
+        - {x: -49.5, y: 22.5}
+        - {x: -54.5, y: 16.5}
+        - {x: -56.5, y: 10.5}
+        - {x: -56.5, y: -16.5}
+        - {x: -53.5, y: -23.5}
+        - {x: -44.5, y: -32.5}
+        - {x: -42.5, y: -33.5}
+        - {x: 25.5, y: -33.5}
+        - {x: 30.5, y: -32.5}
+        - {x: 43.5, y: -21.5}
+        - {x: 44.5, y: -14.5}
+      physicsShape: []
+      tessellationDetail: 0.42
+      bones: []
+      spriteID: ba1eba941b1bf6d50800000000000000
+      internalID: 6732795342945509803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3926edaeb09e47448a4af2875c43489f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
