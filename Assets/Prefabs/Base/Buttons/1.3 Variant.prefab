@@ -20,12 +20,12 @@ PrefabInstance:
     - target: {fileID: 2826125305233031634, guid: 4d981c38abaaca8419d3d22ff3ed070c,
         type: 3}
       propertyPath: m_text
-      value: 1.3
+      value: 1.3 MEMORY SYMULATOR
       objectReference: {fileID: 0}
     - target: {fileID: 2826125305233031634, guid: 4d981c38abaaca8419d3d22ff3ed070c,
         type: 3}
       propertyPath: m_fontSize
-      value: 80
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 2986954474088492991, guid: 4d981c38abaaca8419d3d22ff3ed070c,
         type: 3}
@@ -135,7 +135,38 @@ PrefabInstance:
     - target: {fileID: 3238105563788231754, guid: 4d981c38abaaca8419d3d22ff3ed070c,
         type: 3}
       propertyPath: m_Name
-      value: 1.3 Variant
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4751534061931939614, guid: 4d981c38abaaca8419d3d22ff3ed070c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4751534061931939614, guid: 4d981c38abaaca8419d3d22ff3ed070c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547024389989100319, guid: 4d981c38abaaca8419d3d22ff3ed070c,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547024389989100319, guid: 4d981c38abaaca8419d3d22ff3ed070c,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547024389989100319, guid: 4d981c38abaaca8419d3d22ff3ed070c,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 21300000, guid: db7df8ac894b6744cb30932328c7d171,
+        type: 3}
+    - target: {fileID: 7547024389989100319, guid: 4d981c38abaaca8419d3d22ff3ed070c,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Sprite, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d981c38abaaca8419d3d22ff3ed070c, type: 3}
