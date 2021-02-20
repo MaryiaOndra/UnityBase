@@ -1,18 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace UnityBase
 {
     public class MenuController : MonoBehaviour
     {
-        void Update()
+        private void Awake()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Debug.Log("WANT TO ESCAPE?");
-            }
+            Cursor.visible = true;
         }
 
         public void LoadScene(int buildInx)

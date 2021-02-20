@@ -23,7 +23,12 @@ namespace UnityBase.CountColors
 
         public int MaxAmountColorIndex { get; private set; }
         public int TwinMaxAmountColorIndex { get; private set; }
-   
+
+        private void Awake()
+        {
+            Cursor.visible = true;        
+        }
+
         void Start()
         {
             generatedFigures = GetComponent<Generator>().GeneratedFigures;

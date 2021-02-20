@@ -16,9 +16,9 @@ namespace UnityBase
         private void Start()
         {
             canvasGroup = GetComponent<CanvasGroup>();
-            Return();
             isVisibleCursor = Cursor.visible;
-            Debug.Log(isVisibleCursor);
+            Time.timeScale = 1;
+            HideMenu();
         }
 
         private void Update()
@@ -34,6 +34,7 @@ namespace UnityBase
         public void Return() 
         {
             Time.timeScale = 1;
+            Cursor.visible = isVisibleCursor;
             HideMenu();
         }
 

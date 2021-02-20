@@ -26,6 +26,11 @@ namespace UnityBase.Calculator
 
         public double Result => result;
 
+        private void Awake()
+        {
+            Cursor.visible = true;
+        }
+
         public void WriteToTextField()
         {
             inputFieldText.text = "" + result;

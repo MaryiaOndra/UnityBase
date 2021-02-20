@@ -19,6 +19,11 @@ namespace UnityBase.MemorySimulator
         public int AnswerCounterInt { get; private set; }
         public UsedFigure WorkPrefab => workPrefabs[randomPrefabNmb];
 
+        private void Awake()
+        {
+            Cursor.visible = true;
+        }
+
         private void Start()
         {
             for (int i = 0; i < usedPrefabs.Length; i++)

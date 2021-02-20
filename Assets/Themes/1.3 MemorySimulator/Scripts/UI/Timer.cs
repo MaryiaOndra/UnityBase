@@ -15,7 +15,7 @@ namespace UnityBase.MemorySimulator
 
         private void Update()
         {
-            timeToDisplay = Time.realtimeSinceStartup;
+            timeToDisplay = Time.timeSinceLevelLoad;
             DisplayTime(timeToDisplay);
         }
 
