@@ -11,6 +11,7 @@ namespace UnityBase.Terrain
 
         void Awake()
         {
+            Cursor.visible = false;
             levelsWithObjects = GetComponentsInChildren<DroppedObjectsDetector>();
         }
 
@@ -33,7 +34,6 @@ namespace UnityBase.Terrain
                             IsAllLevelsDone = true;
                         }
                     }
-
                 }
             }
             else

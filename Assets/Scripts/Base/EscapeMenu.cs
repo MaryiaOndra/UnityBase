@@ -12,27 +12,22 @@ namespace UnityBase
         CanvasGroup canvasGroup;
 
         bool isVisibleCursor;
-        CursorLockMode sceneCursorLockMode;
 
-        private void Awake()
+        private void Start()
         {
             canvasGroup = GetComponent<CanvasGroup>();
             Return();
-
-            sceneCursorLockMode = Cursor.lockState;
             isVisibleCursor = Cursor.visible;
+            Debug.Log(isVisibleCursor);
         }
 
         private void Update()
         {
             if (Input.GetKey(KeyCode.Escape))
             {
-
                 Time.timeScale = 0;
-                ShowMenu();
-
                 Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;               
+                ShowMenu();
             }
         }
 
@@ -47,11 +42,10 @@ namespace UnityBase
             if (SceneManager.GetActiveScene().buildIndex != startMenuIndx)
             {
                 SceneManager.LoadScene(startMenuIndx);
-                Debug.Log("Back to menu");
             }
             else
             {
-                Application.Quit(1);
+                Application.Quit();
                 Debug.Log("QUIT APPLICATION");
             }
         }
@@ -68,7 +62,6 @@ namespace UnityBase
             canvasGroup.alpha = 0;
             canvasGroup.interactable = false;
             canvasGroup.blocksRaycasts = false;
-
         }
     }
 }

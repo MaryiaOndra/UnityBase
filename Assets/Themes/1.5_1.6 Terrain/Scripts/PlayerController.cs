@@ -30,15 +30,9 @@ namespace UnityBase.Terrain
         void Awake()
         {
             chController = GetComponent<CharacterController>();
+
             launcher = GetComponentInChildren<LauncherBhv>();
         }
-
-        void Start()
-        {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
-        }
-
 
         void Update()
         {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UnityBase.TileLevel
+namespace UnityBase.SolarSystem
 {
     public class CameraController : MonoBehaviour
     {

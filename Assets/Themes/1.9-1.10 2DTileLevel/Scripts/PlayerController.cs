@@ -193,7 +193,6 @@ namespace UnityBase.TileLevel
 
         private void OnTriggerStay2D(Collider2D collision)
         {
-            Debug.Log("LEVEL COMPLETE");
             if (collision.tag == "HappyEnd")
             {
                 if (IsGrounded)

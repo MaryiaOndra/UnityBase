@@ -8,9 +8,9 @@ namespace UnityBase.PyramidShooter
         float maxYAngle = 80f;
         Vector2 currentRotation;
 
-        void Start()
+        void Awake()
         {
-            Cursor.lockState = CursorLockMode.Locked;
+           // Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
 
@@ -26,8 +26,8 @@ namespace UnityBase.PyramidShooter
             currentRotation.x = Mathf.Repeat(currentRotation.x, 360);
             currentRotation.y = Mathf.Clamp(currentRotation.y, -maxYAngle, maxYAngle);
             Camera.main.transform.rotation = Quaternion.Euler(currentRotation.y, currentRotation.x, 0);
-            if (Input.GetMouseButtonDown(0))
-                Cursor.lockState = CursorLockMode.Locked;
+            //if (Input.GetMouseButtonDown(0))
+            //    Cursor.lockState = CursorLockMode.Locked;
             transform.eulerAngles = new Vector3(currentRotation.y, currentRotation.x, 0.0f);
         }
     }
